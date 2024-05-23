@@ -3,7 +3,29 @@ body {
     background-color: #000000;
 }
 h1 {
-    text-align: center;
     color: #F4F4F4;
-    margin-top: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.social_icon {
+    width: 24px;
+    height: 24px;
+}
+.socials {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
 }
