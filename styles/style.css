@@ -11,7 +11,7 @@ h1 {
 }
 .social_icon {
     width: 24px;
-    height: 24px;
+    height: auto;
 }
 .socials {
     margin: auto;
