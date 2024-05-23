@@ -9,10 +9,6 @@ h1 {
     top: 50%;
     transform: translate(-50%,-50%);
 }
-.social_icon {
-    width: 24px;
-    height: auto;
-}
 .socials {
     margin: auto;
     display: flex;
